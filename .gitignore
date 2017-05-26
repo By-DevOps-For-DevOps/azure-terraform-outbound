@@ -4,3 +4,19 @@
 
 # Module directory
 .terraform/
+
+# Emacs
+*~
+
+# Mac
+.DS_Store
+
+# Webstorm
+.idea/
+
+# Ignore security keys from source code
+terraform.tfvars*
+.terraform.tfstate.lock.info
+
+# Ignore .pem ssh files from source code
+*.pem
